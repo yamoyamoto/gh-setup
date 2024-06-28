@@ -1,4 +1,4 @@
-PKG = github.com/k1LoW/gh-setup
+PKG = github.com/yamoyamoto/gh-setup
 COMMIT = $$(git describe --tags --always)
 OSNAME=${shell uname -s}
 ifeq ($(OSNAME),Darwin)
