@@ -61,7 +61,7 @@ else
       echo "curl must be installed to use this gh extension on this platform"
       exit 1
     fi
-    curl -sL -o "${binPath}" "https://github.com/yamoyamoto/gh-setup/releases/download/${ver}/${exe}"
+    curl -sL -o "${binPath}" "https://github.com/k1LoW/gh-setup/releases/download/${ver}/${exe}"
   fi
 fi
 chmod +x "${binPath}"
