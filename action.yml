@@ -1,4 +1,4 @@
-name: 'Setup asset of Github Releases'
+name: 'yamoyamoto/Setup asset of Github Releases'
 description: 'GitHub Action for gh-setup'
 branding:
   icon: 'zap'
