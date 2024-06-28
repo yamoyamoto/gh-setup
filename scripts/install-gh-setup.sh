@@ -5,7 +5,7 @@ token=${GH_SETUP_GITHUB_TOKEN}
 if [ -z "${token}" ]; then
   token=${GITHUB_TOKEN}
 fi
-repo="yamoyamoto/gh-setup"
+repo="k1LoW/gh-setup"
 tag=${GH_SETUP_GH_SETUP_VERSION}
 if [ -z "${tag}" ]; then
     tag="$(curl -sL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${token}" https://api.github.com/repos/${repo}/releases/latest | grep tag_name | awk -F':' '{print $2}' | awk -F'\"' '{print $2}')"
